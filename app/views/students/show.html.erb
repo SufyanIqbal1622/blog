@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @student.name %>
+</p>
+
+<p>
+  <strong>Rollnumber:</strong>
+  <%= @student.rollNumber %>
+</p>
+
+<p>
+  <strong>Startingyear:</strong>
+  <%= @student.startingYear %>
+</p>
+
+<p>
+  <strong>Endingyear:</strong>
+  <%= @student.endingYear %>
+</p>
+
+<p>
+  <strong>Program:</strong>
+  <%= @student.program %>
+</p>
+
+<p>
+  <strong>University:</strong>
+  <%= @student.university %>
+</p>
+
+<%= link_to 'Edit', edit_student_path(@student) %> |
+<%= link_to 'Back', students_path %>

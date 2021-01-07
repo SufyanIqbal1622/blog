@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  rollNumber: MyString
+  startingYear: 1
+  endingYear: 1
+  program: MyString
+  university: MyString
+
+two:
+  name: MyString
+  rollNumber: MyString
+  startingYear: 1
+  endingYear: 1
+  program: MyString
+  university: MyString
